@@ -1,1 +1,57 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Karla:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Karla", sans-serif;
+}
+.header--logo{
+    height: 26px;
+    width: 32px;
+    margin-left: 20px;
+}
+.header--container{
+    display: flex;
+    align-items: center;
+    height: 65px;
+    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.header--title{
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-right: auto;
+    margin-left: 8px;
+    letter-spacing: -0.1em;
+    color: white;
+}
+.header--text{
+    font-weight: 500;
+    color: white;
+    margin-right: 32px;
+    font-size: 0.75rem;
+}
+
+main{
+    padding: 36px;
+}
+.form{
+    display: grid;
+    grid-template: 40px 40px / 1fr 1fr;
+    row-gap: 18px;
+    column-gap: 18px;
+}
+.form--button{
+    grid-column: 1 / -1;
+}
+.form--input{
+    border-radius: 5px;
+    text-indent: 5px;
+    border: 1px solid #D5D4D8;
+}
+.form--button{
+    border-radius: 5px;
+    background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
